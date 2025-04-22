@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(74, 67, 67);
+    color: white;
+    align-items: center;
+    height: 50px;
+    width: 1522px;
+    margin-left: -87px;
+    
+    
+}
+.navbarlist{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 90px;
+}
+.navbar-link {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    
+}
+.info-text{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 93px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 743px;
+    margin: 0 auto;
+    margin-top: 94px;
+
+}
+.fotodiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60;
+    padding: 10px;
+    list-style: none;
+}
+.rasm{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.rasmla{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+h3{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    opacity: 30%;
+    padding-bottom: 40px;
+}
+
+.container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar-logo{
+   margin-left: -220px;
+}
+
+
